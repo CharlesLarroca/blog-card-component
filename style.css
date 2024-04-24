@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* write your CSS here */
+
+body{
+    background-color: #F5E7DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 323px;
+    height: 471px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.card-img{
+    top: 0;
+    width: 323px;
+    height: 208px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-banner{
+    background-color: #F97316;
+    text-align: center;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 12px;
+    width: 102px;
+}
+
+.card-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    width: 273px;
+    height: 124px;
+
+}
+
+.card-title{
+    font-size: 18px;
+}
+
+.card-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-profile{
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.profile-img{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+.profile-infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.profile-name{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.post-time{
+    font-size: 16px;
+    font-weight: 400;
+}
